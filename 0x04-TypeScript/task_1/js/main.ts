@@ -36,8 +36,8 @@ const director1: Director = {
 console.log(director1);
 
 
-function printTeacher(firstName: string, lastName: string): string {
+function printTeacher({ firstName, lastName }: { firstName: string; lastName: string }): string {
   return `${firstName}. ${lastName}`;
-};
+}
 
-console.log(printTeacher(teacher3.firstName, teacher3.lastName))
+console.log(printTeacher(teacher3))
