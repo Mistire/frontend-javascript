@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.js
+*.js.map
+*.d.ts
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*.local
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Test coverage reports
+coverage/
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
