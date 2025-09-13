@@ -19,7 +19,7 @@ interface Student {
   firstName: string;
   lastName: string;
   workOnHomework(): string;
-  displayNamme(): string;
+  displayName(): string;
 }
 
 interface MyConstructor {
@@ -55,12 +55,12 @@ function printTeacher({ firstName, lastName }: { firstName: string; lastName: st
 console.log(printTeacher(teacher3))
 
 
-class StudentClass implements Student {
+class StudentClass {
   firstName: string;
   lastName: string;
 
   workOnHomework(): string {
-    return "Currenly working";
+    return "Currently working";
   }
 
   displayName(): string {
