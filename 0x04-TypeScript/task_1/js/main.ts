@@ -18,6 +18,8 @@ interface printTeacherFunction {
 interface Student {
   firstName: string;
   lastName: string;
+  workOnHomework(): string;
+  displayNamme(): string;
 }
 
 interface MyConstructor {
@@ -57,7 +59,7 @@ class StudentClass implements Student {
   firstName: string;
   lastName: string;
 
-  workOnhomework(): string {
+  workOnHomework(): string {
     return "Currenly working";
   }
 
